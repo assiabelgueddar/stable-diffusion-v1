@@ -21,12 +21,6 @@ Install the required libraries using:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install diffusers transformers accelerate safetensors
 ```
-
-Optional (for performance):
-```bash
-pip install xformers
-```
-
 ---
 
 ## Example Prompt
@@ -39,7 +33,7 @@ Try this for a photorealistic result:
 
 ---
 
-## 🖼 Output
+##  Output
 
 The generated image is displayed inline using `IPython.display`, and can also be saved using `image.save("filename.png")`.
 
