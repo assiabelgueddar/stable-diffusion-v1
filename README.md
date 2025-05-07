@@ -1,10 +1,10 @@
-# 🎨 Stable Diffusion: Text-to-Image Generation Notebook
+#  Stable Diffusion: Text-to-Image Generation Notebook
 
 This notebook demonstrates how to generate **photorealistic images from text prompts** using the **Stable Diffusion model**. It leverages the `diffusers` library from Hugging Face and is intended for use on machines equipped with **NVIDIA GPUs (≥10GB VRAM)**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Generate images from text prompts with high realism
 - Customize prompts for different artistic or photographic styles
@@ -13,7 +13,7 @@ This notebook demonstrates how to generate **photorealistic images from text pro
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 Install the required libraries using:
 
@@ -29,23 +29,23 @@ pip install xformers
 
 ---
 
-## 📷 Example Prompt
+## Example Prompt
 
 Try this for a photorealistic result:
 
 ```text
-"A high-resolution photograph of a fluffy cat riding a brown horse in a grassy field, natural lighting, shallow depth of field, 50mm lens, realistic fur and textures, National Geographic style"
+"A high-resolution photo of a modern city skyline at sunset, with glass skyscrapers reflecting the orange sky, natural lighting, clear weather, realistic details"
 ```
 
 ---
 
-## 🖼️ Output
+## 🖼 Output
 
 The generated image is displayed inline using `IPython.display`, and can also be saved using `image.save("filename.png")`.
 
 ---
 
-## 🧠 Model Info
+## Model Info
 
 - **Base Model**: `CompVis/stable-diffusion-v1-4`
 - **Text Encoder**: CLIP ViT-L/14 (frozen)
@@ -54,17 +54,20 @@ The generated image is displayed inline using `IPython.display`, and can also be
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
-📦stable-diffusion/
- ┣ 📜 stable-diffusion (1).ipynb   ← Jupyter notebook
- ┗ 📄 README.md                     ← You're here
+stable-diffusion/
+ ┣ stable-diffusion (1).ipynb   ← Jupyter notebook
+ ┗ README.md                     ← You're here
+ ┗ stable-diffusion.mp4          ← video
+ ┗ requirements.txt              ← text file
+
 ```
 
 ---
 
-## 💡 Tips
+##  Tips
 
 - Use detailed prompts with styles like `DSLR`, `ultra realistic`, `natural lighting`, etc.
 - Run on GPU-enabled environments for best performance.
@@ -72,7 +75,7 @@ The generated image is displayed inline using `IPython.display`, and can also be
 
 ---
 
-## 📝 Credits
+##  Credits
 
 - Developed using tools by [Hugging Face](https://huggingface.co/CompVis/stable-diffusion-v1-4)
 - Based on the original Stable Diffusion research by [CompVis](https://github.com/CompVis), [Stability AI](https://stability.ai/), and [LAION](https://laion.ai/)
